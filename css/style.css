@@ -245,6 +245,17 @@ form{
 input{
     padding: 5px;
 }
+
+.contenedor-main{
+    width: 86%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.contenedor-main img{
+    margin: 15px 0;
+    width: 100%;
+}
     /*Estilos footer*/
 
 footer{
@@ -305,6 +316,14 @@ footer{
         "img2";
         grid-template-columns: 95%;
         grid-template-rows: repeat(2,280px);
+    }
+    .contenedor-main{
+        width: 95%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .contenedor-main img{
+        margin: 5px 0;
     }
     
     /*footer*/
