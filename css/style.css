@@ -20,32 +20,10 @@ h3{font-size: 1rem;}
 body{background-color: #f2f0ec;}
 
 /*Estilos header*/
-/*header {
-    background-color: #f2f0ec;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    align-items: center;*/
-
-
-/*nav {
-    width: 30%;}*/
 
 header img{
     width: 130px;
     margin-left: 80px;}
-    /*margin-top: 5px; 
-    margin-left: 5px;}*/
-
-    /*header ul{
-    *height: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;}*/
 
 .collapse{
     justify-content: flex-end;
@@ -271,11 +249,6 @@ footer{
 /*celulares*/
 @media only screen and (max-width:480px) 
 {
-    /*header*/
-    /*header {flex-direction: column;
-    justify-content: space-between;}
-    nav {width: 100%;}
-    header a {font-size: 1rem;}*/
     header img{margin-left: 0px;}
 
     /*contenido principal*/
