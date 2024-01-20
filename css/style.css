@@ -276,7 +276,8 @@ footer{
     header img{margin-left: 0px;}
 
     /*contenido principal*/
-    .contenedor-welcome {margin-left: 10px;}
+    .contenedor-welcome {margin-left: 10px;
+    row-gap: 10px;}
     .contenedor-grid {
         grid-template-areas: 
         "img1"
@@ -291,6 +292,7 @@ footer{
         "img10";
         grid-template-columns: 95%;
         grid-template-rows: repeat(10,280px);
+        row-gap: 10px;
     }
     .contenedor-grid-logo {
         grid-template-areas: 
@@ -298,6 +300,7 @@ footer{
         "img2";
         grid-template-columns: 95%;
         grid-template-rows: repeat(2,280px);
+        row-gap: 10px;
     }
     .contenedor-grid-packaging {
         grid-template-areas: 
@@ -309,6 +312,7 @@ footer{
         "img6";
         grid-template-columns: 95%;
         grid-template-rows: repeat(6,280px);
+        row-gap: 10px;
     }
     .contenedor-grid-print {
         grid-template-areas: 
@@ -316,11 +320,13 @@ footer{
         "img2";
         grid-template-columns: 95%;
         grid-template-rows: repeat(2,280px);
+        row-gap: 10px;
     }
     .contenedor-main{
         width: 95%;
         margin: 10px auto;
         text-align: center;
+        row-gap: 10px;
     }
     .contenedor-main img{
         margin: 5px 0;
