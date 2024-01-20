@@ -101,10 +101,10 @@ header a{
 
     /*definir las areas*/
     grid-template-areas: 
-    "img1 img2 . .";
+    "img1 img2";
 
     /*ancho de columna*/
-    grid-template-columns: 20% 20% 20% 20% ;
+    grid-template-columns: 20% 20%;
 
     /*alto de fila*/
     grid-template-rows: 230px;
@@ -135,7 +135,7 @@ header a{
     /*definir las areas*/
     grid-template-areas: 
     "img1 img2 img3 img4"
-    "img5 img6 . .";
+    ". img5 img6 .";
 
     /*ancho de columna*/
     grid-template-columns: 20% 20% 20% 20% ;
@@ -168,10 +168,10 @@ header a{
 
     /*definir las areas*/
     grid-template-areas: 
-    "img1 img2 . .";
+    "img1 img2";
 
     /*ancho de columna*/
-    grid-template-columns: 20% 20% 20% 20% ;
+    grid-template-columns: 20% 20% ;
 
     /*alto de fila*/
     grid-template-rows: 230px;
@@ -229,7 +229,7 @@ header a{
     margin: 30px 0 10px 0;
 }
 
-.sutitulo-about{
+.subtitulo-about{
     margin-bottom: 30px;
 }
 
