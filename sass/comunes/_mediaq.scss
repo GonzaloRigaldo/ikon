@@ -12,19 +12,24 @@
         "img5"
         "img6"
         "img7"
-        "img8"
-        "img9"
-        "img10";
+        "img8";
         grid-template-columns: 95%;
-        grid-template-rows: repeat(10,280px);
+        grid-template-rows: repeat(8,280px);
         row-gap: 30px;
     }
     .contenedor-grid-logo {
         grid-template-areas: 
         "img1"
-        "img2";
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+        "img8"
+        ;
         grid-template-columns: 95%;
-        grid-template-rows: repeat(2,280px);
+        grid-template-rows: repeat(8,280px);
         row-gap: 30px;
     }
     .contenedor-grid-packaging {
@@ -34,17 +39,26 @@
         "img3"
         "img4"
         "img5"
-        "img6";
+        "img6"
+        "img7"
+        "img8"
+        ;
         grid-template-columns: 95%;
-        grid-template-rows: repeat(6,280px);
+        grid-template-rows: repeat(8,280px);
         row-gap: 30px;
     }
     .contenedor-grid-print {
         grid-template-areas: 
         "img1"
-        "img2";
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+        "img8";
         grid-template-columns: 95%;
-        grid-template-rows: repeat(2,280px);
+        grid-template-rows: repeat(8,280px);
         row-gap: 30px;
     }
     .contenedor-main{

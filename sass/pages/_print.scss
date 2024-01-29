@@ -9,13 +9,14 @@ display: grid;
 
 /*definir las areas*/
 grid-template-areas: 
-"img1 img2";
+"img1 img2 img3 img4"
+"img5 img6 img7 img8";
 
 /*ancho de columna*/
-grid-template-columns: 20% 20% ;
+grid-template-columns: 20% 20% 20% 20% ;
 
 /*alto de fila*/
-grid-template-rows: 230px;
+grid-template-rows: repeat(2,230px);
 
 /*acomodar a los hijos*/
 justify-items: center;
