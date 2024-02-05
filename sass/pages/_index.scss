@@ -40,7 +40,9 @@
 
 .miniatura{
     position: relative;
-    .info{position: absolute; background-color: $naranja; padding: 30px; color: $blanco; font-family: $font; width: 90%; height: 90%; top:5%; left: 5%; opacity: 0;}
+    .info{position: absolute; background-color: $naranja; padding: 30px; color: $blanco; font-family: $font; width: 90%; height: 90%; top:5%; left: 5%; opacity: 0;
+    };
+    h2 {font-size: 1.5rem};
 }
 
 .miniatura:hover .info{

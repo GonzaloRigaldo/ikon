@@ -142,6 +142,9 @@ header nav .navbar-nav .nav-link.active {
   left: 5%;
   opacity: 0;
 }
+.miniatura h2 {
+  font-size: 1.5rem;
+}
 
 .miniatura:hover .info {
   opacity: 1;
@@ -217,10 +220,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-h2 {
-  font-size: 1rem;
-}
-
+/*h2{font-size: 1rem;}*/
 /*imagenes 100% print*/
 .contenedor-grid-print img {
   width: 100%;
