@@ -213,6 +213,14 @@ header nav .navbar-nav .nav-link.active {
   width: 100%;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
 /*imagenes 100% print*/
 .contenedor-grid-print img {
   width: 100%;
@@ -248,9 +256,19 @@ header nav .navbar-nav .nav-link.active {
 .titulo-about {
   margin: 30px 0 10px 0;
 }
+.titulo-about h1 {
+  font-size: 1.5rem;
+}
 
 .subtitulo-about {
   margin-bottom: 30px;
+}
+.subtitulo-about h2 {
+  font-size: 1rem;
+}
+
+.footer-main h3 {
+  font-size: 1.5rem;
 }
 
 .contenedor-formulario {
@@ -262,6 +280,10 @@ header nav .navbar-nav .nav-link.active {
 }
 .contenedor-formulario form input {
   padding: 5px;
+}
+
+.footer-main h1 {
+  font-size: 1.5rem;
 }
 
 footer {
